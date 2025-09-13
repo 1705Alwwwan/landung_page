@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Masa Depan - Landing Page</title>
+    <!-- Memuat Tailwind CSS dari CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Memuat file CSS kustom untuk styling tambahan -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navigasi Bar -->
+    <header class="sticky top-0 z-50 bg-white shadow-md p-4">
+        <nav class="container mx-auto flex items-center justify-between">
+            <a href="#" class="text-2xl font-bold text-blue-600">AplikasiKu</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#fitur" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Fitur</a>
+                <a href="#testimoni" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimoni</a>
+                <a href="#kontak" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Kontak</a>
+            </div>
+            <a href="#cta" class="bg-blue-600 text-white font-semibold py-2 px-6 rounded-full shadow-lg hover:bg-blue-700 transition-colors duration-300 transform hover:scale-105 active:scale-95">
+                Mulai Sekarang
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Bagian Utama (Hero Section) -->
+        <section class="bg-blue-600 text-white text-center py-20 px-4 md:py-32" style="background-image: linear-gradient(to bottom right, #3b82f6, #1e40af);">
+            <div class="container mx-auto max-w-3xl">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 text-shadow">
+                    Bangun Masa Depan Digital Anda
+                </h1>
+                <p class="text-lg md:text-xl mb-8 opacity-90">
+                    Solusi inovatif untuk menyederhanakan alur kerja dan meningkatkan produktivitas Anda.
+                </p>
+                <a href="#cta" class="bg-white text-blue-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-200 transition-colors duration-300 transform hover:scale-105 active:scale-95 inline-block">
+                    Daftar Gratis
+                </a>
+            </div>
+        </section>
+
+        <!-- Bagian Fitur -->
+        <section id="fitur" class="py-16 px-4 md:py-24">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Fitur Utama</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto mb-12">
+                    Kami menyediakan alat yang kuat untuk membantu Anda mencapai tujuan dengan lebih cepat dan efisien.
+                </p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-100 transform hover:scale-105 transition-transform duration-300">
+                        <div class="flex justify-center mb-4">
+                            <div class="p-3 bg-blue-100 rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Performa Cepat</h3>
+                        <p class="text-gray-600">
+                            Nikmati kecepatan luar biasa dengan arsitektur kami yang dioptimalkan.
+                        </p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-100 transform hover:scale-105 transition-transform duration-300">
+                        <div class="flex justify-center mb-4">
+                            <div class="p-3 bg-blue-100 rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m-6 4a2 2 0 100-4m0 4a2 2 0 110-4m0-4a2 2 0 100-4m0 4a2 2 0 110-4" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Fleksibilitas Tanpa Batas</h3>
+                        <p class="text-gray-600">
+                            Sesuaikan platform kami dengan kebutuhan unik bisnis Anda.
+                        </p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-100 transform hover:scale-105 transition-transform duration-300">
+                        <div class="flex justify-center mb-4">
+                            <div class="p-3 bg-blue-100 rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18a9 9 0 01-9-9m9 9c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 01-9-9" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Dukungan Global</h3>
+                        <p class="text-gray-600">
+                            Tim ahli kami siap membantu Anda 24/7 di mana pun Anda berada.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Testimoni -->
+        <section id="testimoni" class="bg-blue-50 py-16 px-4 md:py-24">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Apa Kata Pengguna Kami?</h2>
+                <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+                    <div class="bg-white p-6 rounded-2xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                        <p class="text-gray-600 mb-4 italic">
+                            "Aplikasi ini benar-benar mengubah cara saya bekerja. Alur kerja menjadi lebih efisien dan tim saya lebih produktif."
+                        </p>
+                        <div class="flex items-center justify-center">
+                            <img src="https://placehold.co/50x50/e2e8f0/64748b?text=JD" alt="John Doe" class="w-12 h-12 rounded-full mr-4">
+                            <div class="text-left">
+                                <p class="font-bold text-gray-800">John Doe</p>
+                                <p class="text-gray-500 text-sm">CEO, Tech Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                        <p class="text-gray-600 mb-4 italic">
+                            "Saya sangat terkesan dengan kemudahan penggunaan dan dukungan pelanggan yang responsif. Sangat direkomendasikan!"
+                        </p>
+                        <div class="flex items-center justify-center">
+                            <img src="https://placehold.co/50x50/e2e8f0/64748b?text=JS" alt="Jane Smith" class="w-12 h-12 rounded-full mr-4">
+                            <div class="text-left">
+                                <p class="font-bold text-gray-800">Jane Smith</p>
+                                <p class="text-gray-500 text-sm">Manajer Pemasaran, Kreatif Media</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Call-to-Action -->
+        <section id="cta" class="bg-blue-600 text-white text-center py-16 px-4 md:py-24" style="background-image: linear-gradient(to top left, #3b82f6, #1e40af);">
+            <div class="container mx-auto max-w-4xl">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-shadow">
+                    Siap untuk Perubahan?
+                </h2>
+                <p class="text-lg md:text-xl mb-8 opacity-90">
+                    Gabunglah dengan ribuan pengguna yang sudah merasakan manfaatnya.
+                </p>
+                <a href="#kontak" class="bg-white text-blue-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-200 transition-colors duration-300 transform hover:scale-105 active:scale-95 inline-block">
+                    Hubungi Kami
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 px-4">
+        <div class="container mx-auto text-center md:flex md:justify-between md:items-center">
+            <p class="mb-4 md:mb-0">&copy; 2024 Aplikasi Masa Depan. Hak Cipta Dilindungi.</p>
+            <div class="flex justify-center space-x-6">
+                <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privasi</a>
+                <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Ketentuan</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Memuat file JavaScript untuk fungsionalitas -->
+    <script src="script.js"></script>
+</body>
+</html>
